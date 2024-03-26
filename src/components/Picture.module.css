@@ -1,0 +1,13 @@
+.pictures img {
+  -o-object-fit: cover;
+  object-fit: cover;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+/* .pictures {
+  border: 2px solid red;
+} */
+.pictures img:hover {
+  -webkit-transform: scale(1.25);
+  transform: scale(1.25);
+}
